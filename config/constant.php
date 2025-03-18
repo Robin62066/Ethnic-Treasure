@@ -1,9 +1,9 @@
 <?php
 if ($site_live) {
-    define('HOSTNAME', 'localhost');
-    define('USERNAME', 'ethnictreasuresc');
-    define('PASSWORD', 'EPlWsQK$I98#');
-    define('DATABASE', 'ethnictreasuresc_main');
+    define('HOSTNAME', '');
+    define('USERNAME', '');
+    define('PASSWORD', '');
+    define('DATABASE', '');
 } else {
 
     define('HOSTNAME', 'localhost');
