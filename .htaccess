@@ -1,14 +1,1 @@
-RewriteEngine on
 
-#RewriteRule ^/details/([A-Za-z]+)/([0-9]+)$ /product_details.php?id=$1
-
-RewriteRule ^details/(.*)/([0-9]+)/?$ product_details.php?id=$2 [L]
-
-# For Blog Details
-RewriteRule ^blogs/(.*)/([0-9]+)/?$ blogDetails.php?id=$2 [L]
-
-# For Category Details
-RewriteRule ^product-category/(.*)/([0-9]+)/?$ product.php?cat=$2 [L]
-
-# For blog Category Details
-RewriteRule ^blog-category/(.*)/([0-9]+)/?$ blog.php?cat=$2 [L]
